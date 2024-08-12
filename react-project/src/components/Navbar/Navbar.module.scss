@@ -1,0 +1,29 @@
+.navStyle {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+
+    .navList {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+    }
+
+    li {
+        display: inline;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem;
+        transition: color 0.3 ease, background-color 0.3 ease;
+
+        &:hover {
+            color: #61dafb;
+            background-color: #444;
+            border-radius: 4px;
+        }
+    }
+}

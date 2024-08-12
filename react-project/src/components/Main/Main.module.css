@@ -1,0 +1,9 @@
+.mainStyle {
+  height: 100vh;
+  background-color: gray;
+}
+.mainStyle .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=Main.module.css.map */
